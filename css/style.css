@@ -9,10 +9,27 @@
 	background-color: #FBFBFB;
 
 }
-#products-container > #comics{
+.logo{
+    margin: 5px;
+}
+#comics{
     display: grid;
     grid-template-columns: repeat(3,1fr);
  
+}
+.menu-container{
+background: rgb(20, 20, 20);
+
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(6, 194, 207);
+}
+.btn{
+    background: blue;
+    color:#FBFBFB;
 }
 .slider{
     width:1000px;
