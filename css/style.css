@@ -4,13 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.media{
+ color: seagreen;
+ margin: 5px;
+}
 .media:hover {
     background-color: #FBFBFB;
+    box-shadow: #807d7d 0px 0px 4px 1px;
+    height: 184px;
 
 }
 .logo{
-    margin: 5px;
+    margin: 5px 10px;
+}
+h3{
+    margin-top: 30px;
+}
+h6{
+    color: black;
 }
 #comics{
     display: grid;
@@ -21,6 +32,17 @@
 background: rgb(20, 20, 20);
 
 }
+.carousel-caption{
+    background: #000000ad;
+    color: white;
+    width: 1005px;
+    margin: auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+}
 a{
     color: white;
 }
@@ -28,7 +50,7 @@ a:hover{
     color: rgb(6, 194, 207);
 }
 .btn{
-    background: blue;
+    background: rgb(55, 109, 211);
     color:#FBFBFB;
 }
 .slider{
