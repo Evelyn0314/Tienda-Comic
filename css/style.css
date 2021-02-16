@@ -1,0 +1,20 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.media:hover {
+	background-color: #FBFBFB;
+
+}
+#products-container > #comics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+}
+.slider{
+    width:1000px;
+    margin: auto;
+}
